@@ -8,8 +8,8 @@ score += 5;
 score *= 10;
 let telefonNummer = 20192015;
 //oppgave f 
-let fornavnErStudent = true
+let fornavnErStudent = true;
 //oppgave g 
 console.log ("hei "+fornavn+" din score er " +score);
 //oppgave h
-let highscore = 50;
+let score = Highscore
