@@ -6,11 +6,8 @@ let score = 0;
 score += 5;
 //oppgave d 
 score *= 10;
-//oppgave e
 let telefonNummer = 20192015;
 //oppgave f 
-let fornavnErStudent = true;
+let fornavn_er_student = "true";
 //oppgave g 
-console.log ("hei "+fornavn+" din score er " +score);
-//oppgave h
-let highScore = score
+console.log ("Hei "+fornavn+" din score er "+score);
