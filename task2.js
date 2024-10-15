@@ -41,5 +41,3 @@ for (let index = people.length-1; index >= 0; index--) {
 const phoneNumberArray = [110, 112, 113];
 
 //oppgave G)
-const lastNumber = phoneNumbersArray.length-1
-console.log phoneNumberArray[lastNumber];

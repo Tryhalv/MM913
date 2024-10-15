@@ -100,7 +100,7 @@ const phoneNumberArray = [110, 112, 113];
     Skriv ut bare det siste telefon numeret i listen din. 
 */
 const lastNumber = phoneNumbersArray.length-1
-console.log phoneNumberArray[lastNumber];
+console.log ,phoneNumberArray[lastNumber];
 
 /*
     Oppgave: H
