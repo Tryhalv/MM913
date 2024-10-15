@@ -82,8 +82,8 @@ for(let index = 10; index > min; index--){
     Bruk en løkke (for) til å skrive ut partallene mellom 1 og 100
 */
 console.log("Oppgave: E");
-let max = 100 ;
-for(let index = 0; index < max; index++){
+//let max = 100 ;
+for(let index = 1; index <= 100; index++){
     let a = index / 2 
     let b = Math.floor(a)
     if (a-b==0){
@@ -97,10 +97,11 @@ console.log("Oppgave: F");
 
 const DICTIONARY = {
     hello:"Hei på deg",
-    howAreYou:"hvordan står det til?"
+    howAreYou:"hvordan står det til?",
+    goodQuestionsLatly: "Fått noen gode spørsmål i det siste?"
 }
 
-console.log(`${DICTIONARY.hello} Christian ${DICTIONARY.howAreYou}`); //-> Hei på deg Christian, hvordan står det til?
+console.log(`${DICTIONARY.hello} Christian, ${DICTIONARY.howAreYou}`); //-> Hei på deg Christian, hvordan står det til?
 console.log(`${DICTIONARY.goodQuestionsLatly}`) //-> Fått noen gode spørsmål i det siste?
 
 
@@ -116,10 +117,13 @@ const DICTIONARY_ML = {
         howAreYou:"hvordan står det til?"
     },
     en:{
-
+        hello: "hello",
+        howAreYou:"how are you",
+        goodQuestionsLatly:" gotten any good questions lately"
     }
 }
 
-console.log(`${DICTIONARY.en.hello} Christian ${DICTIONARY.en.howAreYou}`); //-> Hi Christian, how are you?
-console.log(`${DICTIONARY.en.goodQuestionsLatly}`) //-> Gotten anny good questions latly?
+
+console.log(`${DICTIONARY_ML.en.hello} Christian ${DICTIONARY_ML.en.howAreYou}`); //-> Hi Christian, how are you?
+console.log(`${DICTIONARY_ML.en.goodQuestionsLatly}`) //-> Gotten anny good questions latly?
 
